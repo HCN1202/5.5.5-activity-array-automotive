@@ -11,7 +11,11 @@ class Car extends VehicleModule{
         this.speed = 0;
         this.mileage = mileage;
         this.started = false;
-        this.numberOfWheels = 0;
+        this.numberOfWheels = 4;
+        this.fuel = 10;
+        this.maxPassenger = 5;
+        this.maxSpeed = 160;
+        this.scheduleService = false;
     }
 
     start() {
